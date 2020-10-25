@@ -4,11 +4,11 @@
 // Declaro las variables
 
 function esMayuscula(letra) {
-  return letra === letra.toUpperCase();
+  return letrasMayus.includes(letra);
 }
 
 function esMinuscula(letra) {
-  return letra === letra.toLowerCase();
+  return letras.includes(letra);
 }
 
 function esNum(letra) {
@@ -19,6 +19,8 @@ function esEsp(letra) {
   return especiales.includes(letra);
 }
 
+let letras = "abcdefghijklmnñopqrstuvwxyz";
+let letrasMayus = letras.toLocaleUpperCase();
 let numeros = "1234567890";
 let especiales = "-_@#$%&";
 let contrasena = prompt(

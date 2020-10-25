@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TareaArrays</title>
+    <script type="text/javascript" src="arrays.js"></script>
+  </head>
+  <body>
+    <h1 id="h1"></h1>
+    <p id="p"></p>
+    <script>
+      let paises = [
+        "España",
+        "Canadá",
+        "Rusia",
+        "Francia",
+        "Italia",
+        "EEUU",
+        "Alemania",
+        "Japón",
+        "Grecia",
+        "China",
+      ];
+      let opciones = prompt(
+        "1. Mostrar número de países" +
+          "\n2. Mostrar listado de países" +
+          "\n3. Mostrar un intervalo de países" +
+          "\n4. Añadir un país" +
+          "\n5. Borrar un país" +
+          "\n6. Consultar un país" +
+          "\n0. Salir"
+      );
+      //opciones = parseInt(opciones);
+      while (opciones != 0) {
+        switch (opciones) {
+          case "1":
+            mostrarNumPaises(paises);
+            opciones = prompt(
+              "1. Mostrar número de países" +
+                "\n2. Mostrar listado de países" +
+                "\n3. Mostrar un intervalo de países" +
+                "\n4. Añadir un país" +
+                "\n5. Borrar un país" +
+                "\n6. Consultar un país" +
+                "\n0. Salir"
+            );
+            break;
+          case "2":
+            mostrarListadoPaises(paises);
+            opciones = prompt(
+              "1. Mostrar número de países" +
+                "\n2. Mostrar listado de países" +
+                "\n3. Mostrar un intervalo de países" +
+                "\n4. Añadir un país" +
+                "\n5. Borrar un país" +
+                "\n6. Consultar un país" +
+                "\n0. Salir"
+            );
+            break;
+          case "3":
+            intervaloPaises(paises);
+            opciones = prompt(
+              "1. Mostrar número de países" +
+                "\n2. Mostrar listado de países" +
+                "\n3. Mostrar un intervalo de países" +
+                "\n4. Añadir un país" +
+                "\n5. Borrar un país" +
+                "\n6. Consultar un país" +
+                "\n0. Salir"
+            );
+            break;
+          case "4":
+            anadirPais(paises);
+            opciones = prompt(
+              "1. Mostrar número de países" +
+                "\n2. Mostrar listado de países" +
+                "\n3. Mostrar un intervalo de países" +
+                "\n4. Añadir un país" +
+                "\n5. Borrar un país" +
+                "\n6. Consultar un país" +
+                "\n0. Salir"
+            );
+            break;
+          case "5":
+            borrarPais(paises);
+            opciones = prompt(
+              "1. Mostrar número de países" +
+                "\n2. Mostrar listado de países" +
+                "\n3. Mostrar un intervalo de países" +
+                "\n4. Añadir un país" +
+                "\n5. Borrar un país" +
+                "\n6. Consultar un país" +
+                "\n0. Salir"
+            );
+            break;
+          case "6":
+            consultarPais(paises);
+            opciones = prompt(
+              "1. Mostrar número de países" +
+                "\n2. Mostrar listado de países" +
+                "\n3. Mostrar un intervalo de países" +
+                "\n4. Añadir un país" +
+                "\n5. Borrar un país" +
+                "\n6. Consultar un país" +
+                "\n0. Salir"
+            );
+            break;
+          default:
+            alert("La opción escogida no es válida. Elija otra");
+            opciones = prompt(
+              "1. Mostrar número de países" +
+                "\n2. Mostrar listado de países" +
+                "\n3. Mostrar un intervalo de países" +
+                "\n4. Añadir un país" +
+                "\n5. Borrar un país" +
+                "\n6. Consultar un país" +
+                "\n0. Salir"
+            );
+        }
+      }
+    </script>
+  </body>
+</html>
