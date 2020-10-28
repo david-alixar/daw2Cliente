@@ -8,26 +8,22 @@
   <body>
     <h2>Tarea ventanas</h2>
     <script>
-      window.name = "Mi ventana";
-
       let miVentana;
-      let prueba = "cerrarVentana2()";
+      window.name = "Mi ventana";
       let texto =
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
-      function crearVentana() {
-        let confirmacion = confirm("¿Desea realmente abrir la ventana?");
-        if (confirmacion) {
-          miVentana = window.open(
-            "",
-            "",
-            "width=200,height=80,location=no,toolbar=no,menubar=no,resizable=no,top=500,left=500"
-          );
-          miVentana.document.write(texto);
-          miVentana.document.write(
-            "<button onclick= " + prueba + ">Cerrar ventana</button>"
-          );
-        }
+      let confirmacion = confirm("¿Desea realmente abrir la ventana?");
+      if (confirmacion) {
+        miVentana = window.open(
+          "",
+          "",
+          "width=200,height=80,location=no,toolbar=no,menubar=no,resizable=no,top=500,left=500"
+        );
+        miVentana.document.write(texto);
+        miVentana.document.write(
+          '<br><br><button onclick= "window.close()">Cerrar ventana</button>'
+        );
       }
 
       function cerrarVentana() {
@@ -72,7 +68,6 @@
       }
     </script>
 
-    <button onclick="crearVentana()">Crear ventana</button>
     <button onclick="cerrarVentana()">Cerrar ventana</button>
     <button onclick="moverVentana()">Mover ventana</button>
     <button onclick="reubicarVentana()">Reubicar ventana</button>
