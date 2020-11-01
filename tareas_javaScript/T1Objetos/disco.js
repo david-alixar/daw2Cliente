@@ -218,18 +218,33 @@ function borrarDisco() {
 }
 
 function muestraPosicion() {
-  let pais = prompt(
-    "Indique el elemento del que desea consultar la posición (Ej: Ucrania):"
+  let nombre = prompt(
+    "Indique el nombre del disco del que desea consultar la posición (Ej: Más):"
   );
-  let posicion = paises.indexOf(pais);
-  if (posicion == -1) {
-    document.getElementById("h1").innerHTML = "Consultar posición por país";
-    document.getElementById("p").innerHTML = "País no encontrado";
-    alert("País no encontrado");
-  } else {
-    document.getElementById("h2").innerHTML = "Consultar posición por país";
+  let posicion = null;
+  for (i = 0; i < discos.length; i++) {
+    if (discos[i].nombre == nombre) {
+      posicion = i;
+      break;
+    }
+  }
+  if (posicion == null) {
+    document.getElementById("h2").innerHTML =
+      "Consultar posición por nombre del disco";
     document.getElementById("p").innerHTML =
-      pais + " se encuentra en la posición: " + posicion;
+      nombre +
+      " no encontrado! El nombre del disco no existe o está mal escrito";
+    alert(
+      "Disco no encontrado! El nombre del disco no existe o está mal escrito"
+    );
+  } else {
+    document.getElementById("h2").innerHTML =
+      "Consultar posición por nombre del disco";
+    document.getElementById("p").innerHTML =
+      "El disco con nombre " +
+      nombre +
+      " se encuentra en la posición: " +
+      posicion;
   }
 }
 
