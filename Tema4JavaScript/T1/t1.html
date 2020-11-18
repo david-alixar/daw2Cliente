@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario 1</title>
+  </head>
+  <body>
+    <h1>Formulario discos</h1>
+
+    <fieldset>
+      <label for="name">Nombre del disco:</label><br />
+      <input type="text" name="nombre" /> <br />
+      <br />
+      <label for="name">Nombre del cantante o grupo:</label><br />
+      <input type="text" name="cantante" /> <br />
+      <br />
+      <label for="name">Año de publicación:</label><br />
+      <input type="text" name="nombre" /> <br />
+    </fieldset>
+
+    <br />
+    <br />
+
+    <fieldset>
+      <label for="genero">Género del disco:</label>
+      <br /><br />
+      <select name="genero" id="genero">
+        <option value="rock">Rock</option>
+        <option value="pop">Pop</option>
+        <option value="punk">Punk</option>
+        <option value="indie">Indie</option>
+      </select>
+    </fieldset>
+
+    <br /><br />
+
+    <fieldset>
+      <label for="name">Localización:</label><br />
+      <input type="number" name="nombre" /> <br />
+      <br />
+      <label for="prestado">Prestado:</label><br />
+      <input type="radio" name="prestado" value="true" /> True
+      <input type="radio" name="prestado" value="false" checked /> False
+    </fieldset>
+
+    <br />
+    <input name="enviar" type="submit" value="Enviar formulario" />
+  </body>
+</html>
