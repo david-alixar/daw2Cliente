@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario 4</title>
+    <script src="t4.js"></script>
+    <style>
+      .error {
+        border: solid 2px #ff0000;
+      }
+      .errorEtiqueta {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Formulario discos</h1>
+
+    <form action="procesar.php" method="post" id="miFormulario">
+      <fieldset>
+        <label for="name">Nombre del disco</label>
+        <input type="text" id="nombre" name="nombre" /> <br />
+        <br />
+        <label for="name">Nombre del cantante o grupo</label>
+        <input type="text" id="cantante" name="cantante" /> <br />
+        <br />
+        <label for="name">Año de publicación</label>
+        <input type="text" id="ano" name="nombre" /> <br />
+      </fieldset>
+
+      <br />
+      <br />
+
+      <fieldset>
+        <label for="genero">Género del disco</label>
+        <br /><br />
+        <select name="genero" id="genero">
+          <option value="rock">Rock</option>
+          <option value="pop">Pop</option>
+          <option value="punk">Punk</option>
+          <option value="indie">Indie</option>
+        </select>
+      </fieldset>
+
+      <br /><br />
+
+      <fieldset>
+        <label for="name">Localización</label>
+        <input type="number" id="loc" name="nombre" /> <br />
+        <br />
+        <label for="prestado">Prestado:</label><br />
+        <input type="radio" name="prestado" value="true" /> True
+        <input type="radio" name="prestado" value="false" checked /> False
+      </fieldset>
+
+      <br />
+      <input
+        name="enviar"
+        type="submit"
+        id="enviar"
+        value="Enviar formulario"
+      />
+    </form>
+  </body>
+</html>

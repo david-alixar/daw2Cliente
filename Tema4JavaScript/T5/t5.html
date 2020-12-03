@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cuestionario cocineros</title>
+    <script src="t5.js" defer></script>
+    <style>
+      .cant_errores {
+        float: right;
+      }
+      .error {
+        border: solid 2px #ff0000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Rellene los campos del siguiente formulario</h1>
+
+    <form>
+      <fieldset>
+        <label for="fecha">Fecha(día/mes/año):</label>
+        <input type="date" id="fecha" name="fecha" required /> <br />
+      </fieldset>
+      <br />
+      <fieldset>
+        <label for="cocinero">Cocinero (ej. WW$1234):</label>
+        <input type="text" id="cocinero" name="cocinero" required /> <br />
+        <br />
+        <label for="destinatario"
+          >Destinatario (ej. NM_alburquerque:1234):</label
+        >
+        <input type="text" id="destinatario" name="destinatario" required />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset>
+        <label for="gramos">Gramos (del 100 al 5000):</label>
+        <input type="text" id="gramos" name="gramos" required /> <br />
+        <br />
+        <label for="composicion">Composición (ej. 200gC3OH7):</label>
+        <input type="text" id="composicion" name="composicion" required />
+        <br />
+      </fieldset>
+      <br />
+      <fieldset>
+        <label for="num_cuenta">Número de cuenta de EEUU:</label>
+        <input
+          name="help"
+          type="submit"
+          id="help"
+          class="cant_errores"
+          value="Ayuda"
+        />
+        <input type="text" id="num_cuenta" name="num_cuenta" required /> <br />
+      </fieldset>
+      <br /><br />
+      <input
+        name="enviar"
+        type="submit"
+        id="enviar"
+        value="Enviar formulario"
+      />
+
+      <input
+        name="reset"
+        type="submit"
+        id="reset"
+        class="cant_errores"
+        value="Reiniciar contador"
+      />
+      <br /><br />
+      <label for="cant_errores"
+        >Cantidad de intentos para completar el formulario:</label
+      >
+      <input type="text" class="cant_errores" readonly="yes" />
+    </form>
+  </body>
+</html>
