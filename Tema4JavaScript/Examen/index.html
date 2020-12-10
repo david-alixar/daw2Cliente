@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samsung</title>
+    <script src="validation.js" defer></script>
+    <style>
+      .error {
+        border: solid2px red;
+      }
+      .acierto {
+        border: solid2px green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Formulario de validación Samsung</h1>
+
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" /><br /><br />
+
+      <label for="modelo">Elija el modelo:</label>
+
+      <select id="modelo">
+        <option value="0">Elija un modelo</option>
+        <option value="1">Televisor</option>
+        <option value="2">Frigorífico</option>
+        <option value="3">Lavadora</option>
+        <option value="4">Microondas</option>
+        <option value="5">Lavavajillas</option>
+      </select>
+
+      <label for="fecha">Fecha:</label>
+      <input type="text" id="fecha" name="fecha" /><br /><br />
+
+      <label for="consumo">Consumo enerǵetico:</label>
+      <input type="text" id="consumo" name="consumo" /><br /><br />
+
+      <label for="referencia">Referencia:</label>
+      <input type="text" id="referencia" name="fname" /><br /><br />
+
+      <label for="fname">Password de comercial:</label>
+      <input type="password" id="fname" name="fname" /><br /><br />
+
+      <input type="submit" id="enviar" value="Enviar" />
+
+      <input type="reset" value="Limpiar" />
+    </form>
+
+    <div id="errores"></div>
+  </body>
+</html>
