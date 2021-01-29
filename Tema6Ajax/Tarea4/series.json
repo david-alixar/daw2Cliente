@@ -1,0 +1,72 @@
+[
+  {
+    "TITLE": "Game of thrones",
+    "CHANNEL": "HBO",
+    "DIRECTOR": "David Benioff",
+    "YEAR": "2011",
+    "FINISH": true
+  },
+  {
+    "TITLE": "Aquí no hay quien viva",
+    "CHANNEL": "Antena 3",
+    "DIRECTOR": "José Luis Moreno",
+    "YEAR": "2005",
+    "FINISH": true
+  },
+  {
+    "TITLE": "Física o química",
+    "CHANNEL": "Antena 3",
+    "DIRECTOR": "Javier Quintas",
+    "YEAR": "2008",
+    "FINISH": true
+  },
+  {
+    "TITLE": "Friends",
+    "CHANNEL": "NBC",
+    "DIRECTOR": "Gary Halvorson",
+    "YEAR": "1994",
+    "FINISH": true
+  },
+  {
+    "TITLE": "Los hombres de Paco",
+    "CHANNEL": "Antena 3",
+    "DIRECTOR": "Álex Pina",
+    "YEAR": "2005",
+    "FINISH": true
+  },
+  {
+    "TITLE": "The crown",
+    "CHANNEL": "Netflix",
+    "DIRECTOR": "Peter Morgan",
+    "YEAR": "2016",
+    "FINISH": false
+  },
+  {
+    "TITLE": "Knight Rider",
+    "CHANNEL": "NBC",
+    "DIRECTOR": "Glen A. Larson",
+    "YEAR": "1982",
+    "FINISH": true
+  },
+  {
+    "TITLE": "Charmed",
+    "CHANNEL": "The WB",
+    "DIRECTOR": "Aaron Spelling",
+    "YEAR": "1998",
+    "FINISH": true
+  },
+  {
+    "TITLE": "La casa de papel",
+    "CHANNEL": "Antena 3 / Netflix",
+    "DIRECTOR": "Álex Pina",
+    "YEAR": "2017",
+    "FINISH": false
+  },
+  {
+    "TITLE": "Baywatch",
+    "CHANNEL": "NBC",
+    "DIRECTOR": "Gregory J. Bonann",
+    "YEAR": "1999",
+    "FINISH": true
+  }
+]

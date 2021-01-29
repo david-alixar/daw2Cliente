@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SERIES>
+    <SERIE>
+        <TITLE>Game of thrones</TITLE>
+        <CHANNEL>HBO</CHANNEL>
+        <DIRECTOR>David Benioff</DIRECTOR>
+        <YEAR>2011</YEAR>
+        <FINISH>yes</FINISH>
+    </SERIE>
+    <SERIE>
+        <TITLE>Aquí no hay quien viva</TITLE>
+        <CHANNEL>Antena 3</CHANNEL>
+        <DIRECTOR>José Luis Moreno</DIRECTOR>
+        <YEAR>2005</YEAR>
+        <FINISH>yes</FINISH>
+    </SERIE>
+    <SERIE>
+        <TITLE>Física o química</TITLE>
+        <CHANNEL>Antena 3</CHANNEL>
+        <DIRECTOR>Javier Quintas</DIRECTOR>
+        <YEAR>2008</YEAR>
+        <FINISH>yes</FINISH>
+    </SERIE>
+    <SERIE>
+        <TITLE>Friends</TITLE>
+        <CHANNEL>NBC</CHANNEL>
+        <DIRECTOR>Gary Halvorson</DIRECTOR>
+        <YEAR>1994</YEAR>
+        <FINISH>yes</FINISH>
+    </SERIE>
+    <SERIE>
+        <TITLE>Los hombres de Paco</TITLE>
+        <CHANNEL>Antena 3</CHANNEL>
+        <DIRECTOR>Alex Pina</DIRECTOR>
+        <YEAR>2005</YEAR>
+        <FINISH>yes</FINISH>
+    </SERIE>
+    <SERIE>
+        <TITLE>The crown</TITLE>
+        <CHANNEL>Netflix</CHANNEL>
+        <DIRECTOR>Peter Morgan</DIRECTOR>
+        <YEAR>2016</YEAR>
+        <FINISH>no</FINISH>
+    </SERIE>
+    <SERIE>
+        <TITLE>Knight Rider</TITLE>
+        <CHANNEL>NBC</CHANNEL>
+        <DIRECTOR>Glen A. Larson</DIRECTOR>
+        <YEAR>1982</YEAR>
+        <FINISH>yes</FINISH>
+    </SERIE>
+    <SERIE>
+        <TITLE>Charmed</TITLE>
+        <CHANNEL>The WB</CHANNEL>
+        <DIRECTOR>Aaron Spelling</DIRECTOR>
+        <YEAR>1998</YEAR>
+        <FINISH>yes</FINISH>
+    </SERIE>
+    <SERIE>
+        <TITLE>La casa de papel</TITLE>
+        <CHANNEL>Antena 3 / Netflix</CHANNEL>
+        <DIRECTOR>José Luis Moreno</DIRECTOR>
+        <YEAR>2017</YEAR>
+        <FINISH>no</FINISH>
+    </SERIE>
+    <SERIE>
+        <TITLE>Baywatch</TITLE>
+        <CHANNEL>NBC</CHANNEL>
+        <DIRECTOR>Gregory J. Bonann</DIRECTOR>
+        <YEAR>1989</YEAR>
+        <FINISH>yes</FINISH>
+    </SERIE>
+</SERIES>

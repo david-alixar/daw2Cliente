@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabla</title>
+    <script src="entregable.js" defer></script>
+    <style>
+      #tabla {
+        border-top: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mi tabla</h1>
+    <h3>Rellene los siguientes datos sobre cómo desea la tabla</h3>
+
+    <form name="formulario" id="formulario">
+      <label for="columnas">Cantidad de columnas:</label>
+      <input type="text" name="columnas" id="columnas" required /> <br /><br />
+
+      <label for="filas">Cantidad de filas:</label>
+      <input type="text" name="filas" id="filas" required /> <br /><br />
+
+      <label for="header"> Header </label>
+      <input type="checkbox" id="header" /> <br /><br />
+
+      <label for="valor">Valor por defecto:</label>
+      <input name="valor" type="text" id="valor" value="Lorem ipsum" />
+      <br /><br />
+
+      <label for="grosor">Grosor del borde:</label>
+      <input name="grosor" type="text" id="grosor" /> <br /><br />
+
+      <label for="color">Color del borde:</label>
+      <select name="color" id="color">
+        <option value="negro" selected="selected">Negro</option>
+        <option value="azul">Azul</option>
+        <option value="verde">Verde</option>
+        <option value="rojo">Rojo</option>
+      </select>
+      <br /><br />
+    </form>
+
+    <button id="generaTabla">Generar tabla</button> <br /><br />
+
+    <div id="tabla"></div>
+  </body>
+</html>
