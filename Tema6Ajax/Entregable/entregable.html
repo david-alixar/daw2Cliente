@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      img {
+        width: 250px;
+        height: 250px;
+      }
+      .rojo {
+        color: red;
+      }
+      .amarillo {
+        color: yellow;
+      }
+      .verde {
+        color: green;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 5px;
+      }
+    </style>
+    <script src="armas.js" defer></script>
+  </head>
+
+  <body>
+    <div id="texto">
+      <h1>Armas</h1>
+      <button id="cargaXML">Carga armas XML</button>
+      <button id="cargaFetch">Carga armas Fetch</button>
+      <select id="tipo" class="tipo" name="tipo">
+        <option value="default" selected>Seleccione un bando</option>
+        <option value="aliado">Aliado</option>
+        <option value="eje">Eje</option>
+      </select>
+    </div>
+    <br />
+    <table id="demo"></table>
+  </body>
+</html>
