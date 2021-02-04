@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 5px;
+      }
+    </style>
+    <script src="examen.js" defer></script>
+  </head>
+
+  <body>
+    <div id="texto">
+      <label>Comunidad autónoma</label>
+      <select id="comunidades" class="tipo" name="tipo">
+        <option value="default" selected>Seleccione una comunidad</option>
+        <option value="">Andalucía</option>
+        <option value="">Baleares</option>
+      </select>
+      <label>D. Entregadas:</label>
+      <input type="number" id="entregadas" />
+      <label>D. Admin:</label>
+      <input type="number" id="administradas" />
+      <label>D. Completa:</label>
+      <input type="number" id="completa" />
+      <label>P. Entregadas:</label>
+      <input type="number" id="porcEntregadas" />
+      <label>P. Admin:</label>
+      <input type="number" id="porcentaje" />
+      <label>P. Completa:</label>
+      <input type="number" id="poblacion" />
+      <button id="actualizar">Actualizar datos</button>
+    </div>
+    <div id="datos"></div>
+    <div>
+      <br /><br />
+      <h1>Tabla de vacunación</h1>
+      <button id="cargaXML">Cargar datos vacunación (XMLHttpRequest)</button>
+      <button id="cargaFetch">Cargar datos vacunación (Fetch)</button>
+    </div>
+    <br />
+    <table id="tabla"></table>
+  </body>
+</html>
